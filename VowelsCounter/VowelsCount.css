@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+.header{
+    margin-bottom: 10px;
+    padding-top: 12px;
+    text-transform: uppercase;
+}
+#textarea{
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+button{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+}
+.output{
+    margin-bottom: 10px;
+    color: blue;
+}
